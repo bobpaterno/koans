@@ -32,6 +32,7 @@ class AboutSymbols < Neo::Koan
   #
   # Why do we convert the list of symbols to strings and then compare
   # against the string value rather than against symbols?
+  # Because, when you compare a non-existing symbol, Ruby will create it
 
   in_ruby_version("mri") do
     RubyConstant = "What is the sound of one hand clapping?"

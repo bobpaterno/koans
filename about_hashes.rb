@@ -30,6 +30,7 @@ class AboutHashes < Neo::Koan
     # THINK ABOUT IT:
     #
     # Why might you want to use #fetch instead of #[] when accessing hash keys?
+    # Because, if the key doesn't exist, fetch will tell you that, the other method doesn't
   end
 
   def test_changing_hashes
