@@ -51,6 +51,7 @@ class AboutExceptions < Neo::Koan
     rescue StandardError
       # no code here
     ensure
+      # ensure is used to clean up anything that needs cleaning up
       result = :always_run
     end
 
